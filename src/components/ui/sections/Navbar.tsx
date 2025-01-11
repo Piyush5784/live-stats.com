@@ -65,9 +65,9 @@ const Navbar = () => {
                 ))}
               </div>
 
-              <Button className="w-full p-2 border-b">Log In</Button>
+              {/* <Button className=" p-2 border-b">Log In</Button> */}
               <div className="p-1">
-                <Outline>Sign up free</Outline>
+                <Outline>Login</Outline>
               </div>
             </div>
           </motion.div>

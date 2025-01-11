@@ -26,11 +26,11 @@ const HeroSection = () => {
               </div>
             </div>
 
-            <p className="font-bold text-2xl md:text-4xl text-white ">
+            <p className="font-bold text-2xl md:text-5xl text-white ">
               Track Real-Time Visitors on <br />
               Your Website
             </p>
-            <p className="text-[#a0a0a0] font-light">
+            <p className="text-[#a0a0a0] font-light ">
               Get live updates on the number of <br /> users visiting your site{" "}
               <br />
               using our simple, secure, and scalable <br />

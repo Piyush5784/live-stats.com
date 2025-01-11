@@ -1,9 +1,10 @@
-import IntegrationCards from "@/components/ui/custom/integration-cards";
+import { ContainerScroll } from "@/components/ui/acernity/container-scrool-animation";
 import Cards from "@/components/ui/sections/cards";
 import HeroSection from "@/components/ui/sections/hero-section";
+import IntegrationCards from "@/components/ui/sections/integration-card";
 import Navbar from "@/components/ui/sections/Navbar";
-import React from "react";
-
+import PricingSection from "@/components/ui/sections/pricing-section";
+import Image from "next/image";
 const page = () => {
   return (
     <>
@@ -11,11 +12,8 @@ const page = () => {
       <Navbar />
       <HeroSection />
       <Cards />
-      <div className="pt-10">
-        <p className="text-center font-bold text-2xl pb-5">
-          Seamless SDKs for <br /> modern framework
-        </p>
-      </div>
+      <IntegrationCards />
+      <PricingSection />
     </>
   );
 };

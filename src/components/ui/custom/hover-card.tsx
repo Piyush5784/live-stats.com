@@ -3,6 +3,7 @@
 import React, { useState, useEffect, ReactNode } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { ContainerScroll } from "../acernity/container-scrool-animation";
 
 const InteractiveHover = () => {
   const [hovering, setHovering] = useState(false);
@@ -43,10 +44,22 @@ const InteractiveHover = () => {
         <Image
           height={500}
           width={500}
+          className="md:hidden"
           alt="Hero section image of the site"
           src={"/images/Rectangle.png"}
         />
-        <div className="flex items-center justify-end relative -top-5 right-10">
+        <div className="flex flex-col overflow-hidden pt-10">
+          <ContainerScroll titleComponent={<></>}>
+            <Image
+              height={1000}
+              width={1000}
+              className="hidden md:block"
+              alt="Hero section image of the site"
+              src={"/images/hero-section.png"}
+            />
+          </ContainerScroll>
+        </div>
+        <div className="flex items-center justify-end relative -top-5 md:top-20 right-10">
           <div className="border-2 flex items-center justify-center border-[#02B64E] h-50 w-50 rounded-full px-4 py-2 gap-3 text-white">
             <div className="h-3 w-3 bg-[#02B64E] rounded-full"></div>
             <p className="font-bold"> {counter} Online</p>
