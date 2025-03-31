@@ -48,7 +48,7 @@ const InteractiveHover = () => {
           alt="Hero section image of the site"
           src={"/images/Rectangle.png"}
         />
-        <div className="flex flex-col overflow-hidden pt-10">
+        <div className="flex flex-col overflow-hidden pt-10 pb-32">
           <ContainerScroll titleComponent={<></>}>
             <Image
               height={1000}
@@ -59,7 +59,7 @@ const InteractiveHover = () => {
             />
           </ContainerScroll>
         </div>
-        <div className="flex items-center justify-end relative -top-5 md:top-20 right-10">
+        <div className="flex items-center justify-end relative -top-5 md:-top-[27rem]  right-10">
           <div className="border-2 flex items-center justify-center border-[#02B64E] h-50 w-50 rounded-full px-4 py-2 gap-3 text-white">
             <div className="h-3 w-3 bg-[#02B64E] rounded-full"></div>
             <p className="font-bold"> {counter} Online</p>

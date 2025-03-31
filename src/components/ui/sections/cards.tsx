@@ -30,7 +30,7 @@ const cardData = [
 const Cards = () => {
   return (
     <div>
-      <div className="pt-4">
+      <div className="pt-20">
         <div className="h-[80px] duration-500 w-[80px] blur-3xl opacity-90 relative top-32 rounded-full bg-[#80EC8A] "></div>
         <div className="h-[80px] duration-500 w-[80px] opacity-90 relative blur-3xl top-[10rem] border rounded-full bg-[#80EC8A] "></div>
 
