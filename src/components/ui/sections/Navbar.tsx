@@ -1,13 +1,12 @@
 "use client";
-import { AlignJustify, Menu } from "lucide-react";
-import Image from "next/image";
-import React, { useState } from "react";
-import { RxCross1, RxCross2 } from "react-icons/rx";
-import { motion } from "framer-motion";
-import { Button } from "../button";
-import { FiMenu } from "react-icons/fi";
 import Outline from "@/components/buttons/Outline";
+import { motion } from "framer-motion";
+import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
+import { FiMenu } from "react-icons/fi";
+import { RxCross1 } from "react-icons/rx";
+import { Button } from "../button";
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   const navItems = ["Home", "About", "Services", "Pages", "Contact", "Blog"];
